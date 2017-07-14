@@ -4,7 +4,9 @@
   <artifactId>bigdata-textmining</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
+   <properties>
+		    <maven.compiler.source>1.8</maven.compiler.source>
+		    <maven.compiler.target>1.8</maven.compiler.target>
 		   	<spark-version>2.2.0</spark-version>  
   </properties>
   
@@ -22,8 +24,23 @@
 	<version>${spark-version}</version>
 	</dependency>
 	
+	<dependency>
+	    <groupId>org.tartarus</groupId>
+	    <artifactId>snowball</artifactId>
+	    <version>1.0</version>
+	</dependency>
+
 	
   </dependencies>
+  
+ 
+ <repositories>
+ <repository>
+	<id>collide</id>
+ 	<url>http://mvn.collide.info/content/repositories/releases/</url>
+ </repository>
+ </repositories>
+  
   
   
 </project>

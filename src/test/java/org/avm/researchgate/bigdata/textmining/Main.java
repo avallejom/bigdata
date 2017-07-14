@@ -6,8 +6,14 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 
 
-
+/**
+ * Simple sample for testing
+ * @author alberto
+ *
+ */
 public class Main {
+	
+	
 	public static void main(String[] args) {
 	    String logFile = "README.md"; // Should be some file on your system
 	    SparkConf conf = new SparkConf().setAppName("HelloWorld Bigdata Textmining Application").setMaster("local[2]").set("spark.executor.memory","1g");;
@@ -27,5 +33,8 @@ public class Main {
 	    System.out.println("Lines with a: " + numAs + ", lines with b: " + numBs);
 	    
 	    sc.stop();
+	    sc.close();
 	  }
+	
+	
 }
