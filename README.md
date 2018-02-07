@@ -1,4 +1,4 @@
-# big data
+# big-data-text-mining
 
 
 ## Big Data Text Mining and NLP Tools ##
