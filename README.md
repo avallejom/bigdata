@@ -1,7 +1,7 @@
-# bigdata
+# big data
 
 
-## Bigdata Text Mining and NLP Tools ##
+## Big Data Text Mining and NLP Tools ##
 
 
 ### Introduction ###
